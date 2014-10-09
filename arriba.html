@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="css/style.css">
+	<link href='http://fonts.googleapis.com/css?family=Playball' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+	<script src="jquery-2.1.1.js"></script>
+	<script>
+	$(document).ready(function(){
+		(function(){
+			$('dd').filter(':nth-child(n+4)').hide();
+			$('dl').on('mouseenter','dt',function(){
+				var $this = $(this);
+				$this
+					.next()
+						.slideDown(200)
+						.siblings('dd')
+						.slideUp(200)
+			})
+		})();
+	})
+
+
+
+	</script>
+
+</head>
+<body>
+		<!-- div header starts-->
+		<div id="headerline">
+		<!--div header ends-->
+		</div>
+
+	<!--div wrapper starts-->
+	<div id="wrapper">
+		<!--header starts-->
+		<div id="header">
+			<!--navigation starts-->
+			<div id="navigation">
+			<ul>
+				<li><a href="controlador.php?vista=index">Html</a></li>
+				<li><a href="controlador.php?vista=css">Css</a></li>
+				<li><a href="controlador.php?vista=php">Php</a></li>
+				<li><a href="controlador.php?vista=javaScript">Javascript</a></li>
+				
+			
+			</ul>
+			<form action="">
+				<input class="searchInput" type="text" name="search" placeholder="search">
+				<input class="search" type="submit" value="Search">
+			</form>
+			<!--navigation ends-->
+			</div>
+			<!--logo starts-->
+			<div id="logo">
+				<a class="logo" href="#">Learning Web</a>
+			<!--logo ends-->
+			</div>
+		<!--header ends-->
+		</div>
+		<div id="content">
+		<div id="sidebar">
+			<a href="https://www.facebook.com/safeer.mehmood" target="_blank"><img src="img/facebook.jpg"></a>
+			<a href="http://twitter.com" target="_blank"><img src="img/twitter.jpg" ></a>
+			<hr class="link">
+
+			<div class="questions">
+				<h2>Basic Questions</h2>
+				<dl>
+					<dt>What does html stands for?</dt>
+					<dd>Hyper text markup language</dd>
+					
+					<dt>What does php stands for?</dt>
+					<dd>personal home page</dd>
+					
+					<dt>What does css stands for?</dt>
+					<dd>cascationg style sheet</dd>
+
+					<dt>What is a function?</dt>
+					<dd>A function is a reusable bit of code which we used again and
+					agian for accomplishing one particular task.</dd>
+
+					<dt>What is a cookie?</dt>
+					<dd>A cookie is something that we store in the users browser just for remembring his preferences we can create cookie and use them</dd>
+
+					<dt>What is jquery?</dt>
+					<dd>jQuery is the most popular liberary of the javascript in the planet.It simplify the work of javascript.We can download the liberary and use</dd>
+
+					<dt>What is array?</dt>
+					<dd>Array is a method of storing multiple values to a single variable.Think if we have a 100 students we can save the name in a single variable and then we can recall them depend upon our need.</dd>
+
+			</div>
+		</div>

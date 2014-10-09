@@ -1,0 +1,321 @@
+/*
+#003354
+#91BED4
+#D9E8F5
+#FFFFFF
+#F26101
+#D1DBBD
+
+
+
+ */
+
+/*Main page*/
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	background-color:#193441;
+	color:white;
+}
+div#headerline{
+height:6px;
+background-color:orange;
+}
+div#wrapper{
+	width:960px;
+	min-height:auto;
+	margin:0 auto;
+	background-color:#FFF;
+}
+div#header{
+	width:960px;
+	height:150px;
+	background-color:#193441;
+}
+div#navigation{
+	width:960px;
+	height: 40px;
+	background-color:#193441;
+}
+div#navigation ul{
+	margin: 0px;
+	padding: 0px;
+	margin-left: -10px;
+}
+div#navigation li{
+	list-style: none;
+	margin:0px auto;
+	float:left;
+	text-align: center;
+	border-right:1px solid white;
+
+}
+div#navigation li a{
+	
+	text-decoration: none;
+	font-weight: bold;
+	color:#D1DBBD;
+	width:100px;
+	text-align: left;
+	display: block;
+	padding: 5px;
+	background-color: orange;
+	color:#FFFFFF;
+}
+div#navigation li a:hover{
+	background-color:#193441;
+	border-right:none;
+
+}
+div#navigation .pulsada, #navigation .pulsada:hover{
+	background-color: orange;
+	color:white;
+}
+div#navigation form{
+	float:right;
+	
+}
+div#navigation form input{
+	padding:5px;
+}
+div#navigation form input.searchInput{
+	background-color: #FFFFFF;
+	width:200px;
+}
+
+
+div#navigation form input.search{
+	font-family: 'Lucida Console';
+	font-weight: bold;
+	background-color: orange;
+	border:4px solid orange;
+	color:#FFFFFF;
+
+
+
+	
+}
+div#navigation form input.search:hover{
+	background-color:#193441;
+	color:#D1DBBD; 
+	cursor:pointer;
+	border:4px solid #193441;
+}
+div#logo{
+	font-family: 'Lobster', cursive;
+	margin-top: 20px;
+}
+div#logo a.logo{
+	text-decoration: none;
+	font-weight: bold;
+	/*color:#D1DBBD;*/
+	color:#FFF;
+	
+	font-size:45px;
+	padding:5px;
+}
+div#content{
+	width:960px;
+	background-color: #193441;
+	color:#3A3A41;
+	
+	
+}
+div#sidebar{
+	
+	padding:10px;
+	width:275px;
+	min-height:680px;
+	background-color: #FFF;
+	float:right;
+	
+	
+	
+	
+}
+
+hr.link{
+	margin-top: 10px;
+}
+div#post{
+	width:660px;
+	min-height: 700px;
+	background: white;
+}
+div#postArea{
+	
+	width:650px;
+	min-height: 220px;
+	padding-bottom: 5px;
+	background-color: #FFF;
+	color:#3A3A41;
+	padding: 5px;
+	padding-bottom:5px;
+	
+
+}
+div#postArea #fecha{
+	float:right;
+	margin-right: 10px;
+	font-style: italic;
+	color:red;
+}
+div#postArea #nombre{
+	float:right;
+	margin-right:20px;
+	font-style: italic;
+	color:red;
+}
+
+div#postArea a:hover{
+	color:red;
+	text-decoration: underline;
+}
+a#heading{
+	color:#3A3A41;
+	text-decoration: none;
+	font-style: italic;
+	font-size:25px;
+}
+a#readMore{
+	float:right;
+	margin-right: 10px;
+	color:#3A3A41;
+	text-decoration: none;
+}
+button.back{
+	cursor:pointer;
+	float:right;
+	font-size:1em;
+	font-weight: bold;
+	border-style: none;
+	background:#fff;
+	color:red;
+	padding:5px;
+}
+div#postArea img{
+	float:left;
+	margin-left: 0px;
+	margin-right: 5px;
+	font-style: italic;
+	color:red;
+}
+div#postArea p{
+	text-align: justify;
+}
+
+div#footer{
+	
+	width:960px;
+	height: 200px;
+	
+	margin-bottom:5px;
+	color:black;
+	padding:10px;
+	border-top:5px solid #193441;
+}
+#fenlaces{
+	width:110px;
+	height:200px;
+	float:left;
+}
+#fenlaces a{
+	text-decoration: none;
+	display: block;
+	width:100px;
+	margin-top: 5px;
+	background-color:orange;
+	color:white;
+	padding: 5px;
+	font-weight: bold;
+	font-style: italic;
+}
+#mapaSitio{
+	width:250px;
+	height: 200px;
+	float: left;
+	margin-left: 280px;
+	color:orange;
+}
+#mapaSitio h2{
+	text-decoration: underline;
+	font-style: italic;
+}
+#mapaSitio p{
+	margin-top: 5px;
+	margin-left: -80px;
+	
+}
+#mapaSitio a{
+	text-decoration: none;
+	color:orange;
+}
+#mapaSitio a:hover{
+	text-decoration: underline;
+}
+
+#mapaSitio li{
+	list-style: none;
+}
+#latestPost{
+	width: 140px;
+	height: 200px;
+	
+	float:right;
+	margin-right:20px;
+	color:orange;
+}
+#latestPost h2{
+	text-decoration:underline;
+	font-style: italic;
+}
+
+
+
+/*contacto page style*/
+
+form.contactos input{
+	padding:5px;
+}
+form.contactos textarea{
+	padding:5px;
+	
+}
+form.contactos h1{
+padding:5px;
+background-color: orange;
+color:white;
+width:150px;
+}
+
+p.mensajes{
+	color:red;
+	font-style:italic;
+	
+}
+/*==========  sidebar  ==========*/
+div.questions{
+	text-align: center;
+	margin: auto;
+}
+dl{
+	
+}
+dt{
+	cursor:pointer;
+	font-size:1.2em;
+	font-weight: bold;
+	background: #E3E3E3;
+	line-height: 1.5em;
+	padding:5px;
+	border-bottom: 1px solid #c5c5c5;
+	border-top:1px solid white;
+
+}
+dd{
+	padding:.5em 0;
+
+}
+

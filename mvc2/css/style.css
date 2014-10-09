@@ -1,0 +1,122 @@
+
+
+
+body{
+	background-color:#65CB7F;
+	font-family: 'Lobster', cursive;
+}
+div#formLogin{
+	
+	width:250px;
+	height:250px;
+	margin:0 auto;
+	margin-top:150px;
+	padding-top:50px;
+}
+div#mostrarMensaje{
+	width:250px;
+	height:250px;
+	margin:0 auto;
+	margin-top:50px;
+	color:white;
+}
+textarea{
+	resize:none;
+}
+span.heading{
+	color:#FFFFFF;
+	font-size:40px;
+	font-weight: bold;
+
+}
+input.binput{
+	padding:5px;
+	width:170px;
+}
+input.blogin{
+	padding:5px;
+	width:185px;
+
+}
+input.blogin{
+	background-color: #65CB7F;
+	color:#FFFFFF;
+	border:2px solid #e3e3e3;
+	font-weight: bold;
+	font-size:15px;
+	border-color:#e3e3e3;
+	font-family: 'Lobster', cursive;
+	cursor: pointer;
+}
+input.blogin:hover{
+	background-color: #FFFFFF;
+	color:black;
+}
+a.back{
+	margin-bottom: 2px;
+	padding:2px;
+	text-align: center;
+	display: block;
+	width:177px;
+	text-decoration: none;
+	background-color: #65CB7F;
+	color:#FFFFFF;
+	border:2px solid #e3e3e3;
+	font-weight: bold;
+	border-color:#e3e3e3;
+	font-family: 'Lobster', cursive;
+}
+a.back:hover{
+	background-color: #FFFFFF;
+	color:black;
+}
+textarea.messege{
+	margin-left: 0;
+	padding: 5px;	
+}
+p.mostrar{
+	font-style: italic;
+	color:yellow;
+	font-size:18px;
+	font-weight: bold;
+}
+
+/*controlPanelIndex styling*/
+div#containerC{
+	width:200px;
+	margin:0 auto;
+
+}
+#containerC a{
+	padding:2px;
+	text-align: center;
+	display: block;
+	width:177px;
+	margin-left:0;
+	text-decoration: none;
+	background-color: #65CB7F;
+	color:#FFFFFF;
+	border:2px solid #e3e3e3;
+	font-weight: bold;
+	border-color:#e3e3e3;
+	font-family: 'Lobster', cursive;
+	margin-bottom: 2px;
+}
+#containerC a:hover{
+	background-color: #FFFFFF;
+	color:black;
+}
+
+/*controlCrearPost styling*/
+#containerCP{
+	width:600px;
+	margin:0 auto;
+}
+
+
+
+span.from{
+	color:yellow;
+	font-weight: bold;
+	font-style: italic;	
+}
